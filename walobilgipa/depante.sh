@@ -2,7 +2,7 @@
 
 
 CWD=`pwd`
-BACKUP_FILENAME=server-dist.7z
+BACKUP_FILENAME=serverfiles.7z
 cd /container/dist
 echo "Creating /container/${BACKUP_FILENAME}"
 7z a -r -mx=0 -mmt=off ../$BACKUP_FILENAME .
